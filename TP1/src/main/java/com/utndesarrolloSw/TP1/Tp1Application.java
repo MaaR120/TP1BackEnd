@@ -101,6 +101,7 @@ public class Tp1Application {
 			cliente.addPedido(pedido1);
 			cliente.addDomicilio(domicilio);
 
+			//Save a Base de Datos
 			clienteRepository.save(cliente);
 			rubroRepository.save(rubro);
 
